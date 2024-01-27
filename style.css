@@ -1,0 +1,77 @@
+body {
+	background-color: #ccc;
+	padding: 15px;
+}
+.purple {
+	background-color: rebeccapurple;
+}
+.orange{
+    background-color: orangered;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.gray{
+    background-color: deeppink;
+}
+.cayan{
+    background-color: rgb(240, 166, 7);
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+
+
+.header-top,
+.footer,
+.sidebar {
+	min-height: 75px;
+}
+.main-nav {
+	height: 75px;
+}
+.main-column {
+	min-height: 300px;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.main-content {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main-column {
+	flex: 3;
+	margin-right: 15px;
+}
+.sidebar {
+	flex: 1;
+}
+
+
+.flexbox-inline {
+	display: flex;
+}
+.vertical-center {
+	margin: auto;
+	color: #fff;
+	font-family:  Sans-serif;
+	font-size: 1.8rem;
+}
+
+
+
+@media (max-width: 767px) {
+	.main-content {
+		flex-direction: column;
+	}
+	.main-column{
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+}
